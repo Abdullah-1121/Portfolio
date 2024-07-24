@@ -26,8 +26,8 @@ const footer = () => {
   return (
     <div className='bg-primary-dark w-full flex justify-center items-center flex-col gap-y-4 '>
         <div className='md:text-4xl text-2xl  text-white w-full flex justify-center text-center '>
-            <p>Let's Build Something <span className='text-primary-content'>Great</span>  Together!</p></div>
-        <div className='md:text-2xl text-lg  text-center  text-white  flex  justify-center items-center w-full md:w-1/2'>Partner with a visionary developer to transform your ideas into stunning digital experiences. Let's create something extraordinary!</div>
+            <p>Let&apos;s Build Something <span className='text-primary-content'>Great</span>  Together!</p></div>
+        <div className='md:text-2xl text-lg  text-center  text-white  flex  justify-center items-center w-full md:w-1/2'>Partner with a visionary developer to transform your ideas into stunning digital experiences. Let&apos;s create something extraordinary!</div>
         <Link href='/contact'><div><Friendsbutton value='Connect Now❤'></Friendsbutton></div></Link>
         
         <div className='flex gap-x-4 mb-4'>

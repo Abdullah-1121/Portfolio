@@ -4,7 +4,7 @@ import {useForm} from 'react-hook-form'
 import FormField from "./formfield"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { FieldSchemas } from "@/lib/schemas"
-function contactForm(
+function ContactForm(
     
 ){
     const {
@@ -56,7 +56,7 @@ function contactForm(
         <form onSubmit={handleSubmit(onSubmit)}>
         <div className=" flex flex-col justify-center items-center md:w-1/2 w-3/4 h-[500px] mx-auto  ">
           <h1 className="md:text-3xl text-xl font-bold mb-4 text-primary-content">
-            Let's Talk
+            Let&apos;s Talk
           </h1>
           <FormField
             type="username"
@@ -90,4 +90,4 @@ function contactForm(
     )
 
 }
-export default contactForm
+export default ContactForm
