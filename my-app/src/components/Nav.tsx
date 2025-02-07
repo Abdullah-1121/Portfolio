@@ -81,7 +81,7 @@ const Nav = () => {
         <div className=' h-screen flex flex-col justify-evenly'>
        <motion.div variants={linkVars} onClick={toggle}><LinkComp href='/' value='Home' ></LinkComp></motion.div>
        <motion.div variants={linkVars} onClick={toggle} > <LinkComp href='about' value='About me' ></LinkComp></motion.div>
-       <motion.div variants={linkVars} onClick={toggle} > <LinkComp href='skills' value='Skills' ></LinkComp></motion.div>
+       <motion.div variants={linkVars} onClick={toggle} > <LinkComp href='projects' value='Projects' ></LinkComp></motion.div>
        <motion.div variants={linkVars} onClick={toggle} > <LinkComp href='contact' value='Contact me' ></LinkComp></motion.div>
        </div>
         </motion.div>}

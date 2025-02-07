@@ -8,12 +8,13 @@ export async function POST(req:NextRequest){
         const data = await req.json();
         const {fullname,email,message}=data;
         console.log(fullname,email,message)
-       
-      const myemail = process.env.SMTP_USER;
-const pass = process.env.SMTP_PASS;
- const transporter = nodemailer.createTransport({
-    service:'gmail',
-    auth:{
+        
+      const myemail = process.env.NEXT_PUBLIC_SMTP_USER;
+      const pass = process.env.NEXT_PUBLIC_SMTP_PASS;
+      console.log("These are my apikeys " , process.env.SMTP_USER,process.env.SMTP_PASS)
+       const transporter = nodemailer.createTransport({
+       service:'gmail',
+       auth:{
         user:myemail,
         pass,
     }

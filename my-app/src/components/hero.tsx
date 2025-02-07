@@ -3,7 +3,7 @@ import {useState,useEffect} from 'react'
 import Animatedtext from '@/components/animatedtext'
 import Friendsbutton from '@/components/friendsbutton'
 import dynamic from 'next/dynamic'
-import animation from "@/assets/Animation - 1720867652132 (1).json"
+import animation from "@/assets/Animation - 1738646475344.json"
 import {TextGenerateEffect} from '@/components/ui/titletext'
 import Link from 'next/link'
 import Loading from '@/app/loading'
@@ -28,19 +28,19 @@ const hero = () => {
             <div className='  p-2 m-2 text-xl text-white'>Hi there , I </div>
             <div className='  p-2 m-2'>
                 <div className='md:text-5xl lg:text-7xl xs:text-3xl text-2xl font-bold text-white'>
-                Transform <span className='text-primary-content'>Ideas</span> Into Their <span className='text-primary-content'>Digital Essence</span>
+                Craft <span className='text-primary-content'>Smart Systems</span> for <span className='text-primary-content'>Smarter Future</span>
                 </div>
 
             </div>
              <div className=' p-2 m-2 text-xl text-white '>
-                <Animatedtext Text='As a  Developer , we build Dynamic web Apps from Innovative Concepts to Flawless Exexution.Crafting seamless digital experiences with Next.js and React. Elevating functionality and Transforming ideas into engaging digital experiences. Building efficient and dynamic web solutions. Bringing creativity and functionality together seamlessly.'></Animatedtext>
+                <Animatedtext Text='I engineer intelligent systems that drive automation and autonomy for businesses. By integrating AI-driven decision-making, I create solutions that optimize workflows, enhance efficiency, and unlock new possibilities. My focus is on transforming operations into adaptive, self-sustaining systems that evolve with business needs.'></Animatedtext>
              </div>
              <div className=' p-2 md:m-2 mx-auto '>
-                <Link href='/contact'><Friendsbutton value='BE FRIENDS!'></Friendsbutton></Link>
+                <Link href='/contact'><Friendsbutton value='Lets Talk!'></Friendsbutton></Link>
              </div>
         </div>
         <div className=' w-full  order-1 md:order-2 flex justify-center items-center md:p-auto p-0'>
-            <Lottie animationData={animation}></Lottie>
+            <Lottie animationData={animation} style={{ background: "transparent" }}></Lottie>
         </div>
         
     </div>
